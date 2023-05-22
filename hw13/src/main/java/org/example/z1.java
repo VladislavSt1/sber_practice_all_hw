@@ -11,7 +11,7 @@ public class z1 {
         NumberChecker checker = (number) -> number % 13 == 0;
 
         // Пример использования
-        int number = 26;
+        int number = 27;
         boolean result = checker.check(number);
         System.out.println(result); // Выведет: false
 
